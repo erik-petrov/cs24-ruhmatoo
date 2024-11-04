@@ -1,4 +1,4 @@
-# cs24-rühmatöö (parim projekt)
+# Double-3ple tehnilise Repositooriumi ässad
 Antud veebileht tutvustab sulle mängu, mis on paljudele meeldejäävaks ning nostalgiliseks osaks lapsepõlvest. Sellel mängul on mitmeid erinevaid viise, kuidas seda nautida, saad teha seda nii üksi kui ka sõpradega. Tutvud selle ülesehitusega, ajalooga, mõtte ja muuga.
 <details>
   <summary>Kuid mis on see legendaarne mäng, millest me hakkame siin projektis rääkima? See on ei miski muu, kui vana-hea</summary>
