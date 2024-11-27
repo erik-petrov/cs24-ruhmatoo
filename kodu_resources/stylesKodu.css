@@ -1,0 +1,15 @@
+.vaade {
+    position: relative;
+    text-align: center;
+}
+.background-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.minecraft-title img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -220%);
+}
