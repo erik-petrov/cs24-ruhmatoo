@@ -1,22 +1,21 @@
 body {
     background-color: #121212;
-    color: rgb(215, 215, 215); 
-    font-family: 'Minecraft', sans-serif;
+    color: rgb(235, 235, 235); 
 }
 .vaade {
     position: relative;
     text-align: center;
 }
-.background-image {
+.taustapilt {
     width: 100%;
     height: auto;
     display: block;
 }
-.minecraft-title img {
+.tiitliPilt img {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -200%);
+    transform: translate(-50%, -340%);
 }
 
 .sektsioon {
@@ -24,23 +23,32 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 20px 0;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 .tekstipool {
     flex: 1;
-    padding: 20px;
+}
+
+.tekstipool h2 {
+    font-family: 'Minecraft', sans-serif;
+    font-size: 2rem;
+}
+.tekstipool p {
+    font-family: 'MinecraftiaRegular';
+    font-weight: normal;
+    font-style: normal;
 }
 
 .meediapool {
     flex: 1;
     display: flex;
     justify-content: center;
-    padding: 20px;
 }
 
-.meediapool img,
-.meediapool video {
-    max-width: 100%;
+.meediapool img{
+    width: 80%;
     height: auto;
 }
 
