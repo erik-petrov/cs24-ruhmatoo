@@ -8,8 +8,10 @@
     <link rel="stylesheet" type="text/css" href="global_resources/globalStyles.css">
     <!-- Lehe enda stiilileht-->
     <link rel="stylesheet" type="text/css" href="kodu_resources/stylesKodu.css">
-    <!-- Minecraft font, kasutada saab "font-family: 'Minecraft', sans-serif;"-->
+    <!-- Minecraft font tiitlite jaoks, kasutada saab "font-family: 'MinecraftiaRegular'; font-weight: normal; font-style: normal;"-->
     <link href="https://fonts.cdnfonts.com/css/minecraft-4" rel="stylesheet">
+    <!-- Minecraft font sisuteksti jaoks, kasutada saab "font-family: 'Minecraft', sans-serif;"-->
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/minecraftia" type="text/css"/>
 
 
     <!-- Tabi otsas olev nimi -->
@@ -27,18 +29,56 @@
             <li><a href=modid.html>Modid</a></li>
         </ul>
     </nav>
+    <!-- Vaate konteiner -->
     <div class="vaade">
-
-        <img class="background-image" src="kodu_resources/background_title.jpg" alt="Background Image">
-        <div class="minecraft-title">
-            <img src="kodu_resources/minecraft_title.png" alt="Minecraft Title" width="800" height="auto">
+        <!-- Pildi ja tiitli konteiner-->
+        <div class="tiitliKonteiner">
+            <img class="taustapilt" src="kodu_resources/taust.jpg" alt="Taustapilt">
+            <div class="tiitliPilt">
+                <img src="kodu_resources/tiitel.png" alt="Tiitel" width="800" height="auto">
+            </div>
         </div>
 
-        <p>Koduleht minecraft</p>
-        <img src="https://camo.githubusercontent.com/357e4a716f1503cce0ac9f2363576c0ea7063bf1b71a555154207eaf59c68cbb/68747470733a2f2f65787465726e616c2d636f6e74656e742e6475636b6475636b676f2e636f6d2f69752f3f753d687474707325334125324625324673746f72652d696d616765732e732d6d6963726f736f66742e636f6d253246696d616765253246617070732e36303332332e31343239343635363638313035383638332e34643137626464382d373032362d343239612d383436662d6366373833366263396535362e61363965363930352d383932362d346134382d623234332d3134613033396239376161652533466d6f64652533447363616c6525323671253344393025323668253344313038302532367725334431393230253236666f726d61742533446a706726663d31266e6f66623d31266970743d373430366164643630313930376233313764383933343036373836323039333065333433343936643538393066623030303965653062323137343164356232632669706f3d696d61676573" 
-            alt="minecraft pilt"
-            width="800"
-            height="auto">
+    <br><br>
+
+    <div class="sektsioon">
+        <div class="tekstipool">
+            <h2>Mis on Minecraft?</h2>
+            <p>Minecraft on loov ja põnev mäng, kus saad avastada lõputut plokilist maailma, 
+                ehitada fantastilisi struktuure ja lasta oma kujutlusvõimel lennata. 
+                <br>
+                Ükskõik, kas eelistad seigelda salapärastes koobastes või luua oma unistuste loss, Minecraftis
+                on võimalused piiritud.</p>
+        </div>
+        <div class="meediapool">
+            <img src="kodu_resources/sektsioon1.jpg" alt="1. sektsiooni meedia" width="400" height="auto">
+        </div>
+    </div>
+
+    <hr class="sektsioonivahe">
+
+    <div class="sektsioon">
+        <div class="meediapool">
+            <img src="kodu_resources/sektsioon2.png" alt="2. sektsiooni meedia" width="400" height="auto">
+        </div>
+        <div class="tekstipool">
+            <h2>Kas Minecraftis saab pelada ka koos semudega?</h2>
+            <p>Jah, Minecrafti mängimine koos sõpradega on imetore ning toob kaasa palju seiklusi ja lõbusaid hetki! Ühinege serverites või looge oma maailm, kus saate koos avastada, ehitada ja lõputult nautida üksteise seltskonda.</p>
+        </div>
+    </div>
+
+    <hr class="sektsioonivahe">
+
+    <div class="sektsioon">
+        <div class="tekstipool">
+            <h2>Section 3 Title</h2>
+            <p>This is the text for the third sektsioon. It can wrap up the topic or add final thoughts corresponding to the media shown beside.</p>
+        </div>
+        <div class="meediapool">
+            <img src="path/to/your/image3.jpg" alt="3. sektsiooni meedia" width="400" height="auto">
+            <!-- <video width="400" controls><source src="path/to/video3.mp4" type="video/mp4"></video> -->
+        </div>
+    </div>
     </div>
 </body>
 </html>
