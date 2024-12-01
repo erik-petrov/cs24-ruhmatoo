@@ -13,7 +13,7 @@ body {
     justify-content: center;
 }
 
-header h1, .sisu h2 {
+.sisu h2 , .sisu h4{
     font-family: 'Minecraft', sans-serif;
     color: #66cdaa;
     text-shadow: 2px 2px 4px #000000;
@@ -21,11 +21,16 @@ header h1, .sisu h2 {
     margin-bottom: 20px;
 }
 
+/* Loetelude kujundus */
 .sisu p, .sisu ul, .sisu ol {
-    font-family: 'MinecraftiaRegular';
+    font-family: 'Minecraft', sans-serif;
     line-height: 1.8;
     margin: 15px 0;
     text-align: justify;
+}
+
+.sisu ul, .sisu ol {
+    margin-left: 15px;
 }
 
 .sisu section {
@@ -44,35 +49,8 @@ header h1, .sisu h2 {
     transition: color 0.3s ease;
 }
 
-.sisu a:hover {
-    color: #ffffff;
-}
-
-/* Loetelude stiilid */
-.sisu ul, .sisu ol {
-    margin-left: 15px;
-}
-
-/* Nupud ja interaktiivsed osad */
-button {
-    background-color: #66cdaa;
-    border: none;
-    padding: 10px 15px;
-    color: #ffffff;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-    margin: 10px 0;
-    transition: background-color 0.3s ease;
-}
-
-button:hover {
-    background-color: #50a693;
-}
-
 .tiitliPilt {
     margin-top: 70px; 
     margin-bottom: 20px;
     text-align: center;
 }
-
