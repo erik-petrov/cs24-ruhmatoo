@@ -1,3 +1,4 @@
+// Skripti kirjutas HENRI KIVI
 // Valime steve elementi lehelt
 const steveGif = document.getElementById("steve");
 

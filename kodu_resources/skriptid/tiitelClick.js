@@ -1,3 +1,4 @@
+// Skripti kirjutas HENRI KIVI
 // Teeme kindlaks, et veebi leht on enne jõudnud tiitli ära laadida
 document.addEventListener('DOMContentLoaded', () => {
     // valime selle pildi
