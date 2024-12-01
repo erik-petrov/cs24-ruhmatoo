@@ -1,12 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
-    <link rel="stylesheet" type="text/css" href="globalStyles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Põhileht</title>
+
+    <!-- Globaalne stiilileht-->
+    <link rel="stylesheet" type="text/css" href="global_resources/globalStyles.css">
+    <!-- Lehe enda stiilileht-->
+    <link rel="stylesheet" type="text/css" href="kodu_resources/stylesKodu.css">
+    <!-- Minecraft font tiitlite jaoks, kasutada saab "font-family: 'MinecraftiaRegular'; font-weight: normal; font-style: normal;"-->
+    <link href="https://fonts.cdnfonts.com/css/minecraft-4" rel="stylesheet">
+    <!-- Minecraft font sisuteksti jaoks, kasutada saab "font-family: 'Minecraft', sans-serif;"-->
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/minecraftia" type="text/css"/>
+
+
+    <!-- Tabi otsas olev nimi -->
+    <title>Minecraft Algajatale</title>
+    <!-- Ikooni renderdamiseks-->
+    <link rel="icon" type="image/x-icon" href="global_resources/favicon.ico">
 </head>
+
 <body>
     <!--Navigatsiooni menu struktuuri kood, kui muudad seda osa siis peab seda ka teistele lehtedele kopeerima, selle elemendi stiliseerimine on global style sheetis-->
     <nav class="navigatsiooniMenu">
@@ -16,6 +29,56 @@
             <li><a href=modid.html>Modid</a></li>
         </ul>
     </nav>
-    <p>Kodulehe sisu</p>
+    <!-- Vaate konteiner -->
+    <div class="vaade">
+        <!-- Pildi ja tiitli konteiner-->
+        <div class="tiitliKonteiner">
+            <img class="taustapilt" src="kodu_resources/taust.jpg" alt="Taustapilt">
+            <div class="tiitliPilt">
+                <img src="kodu_resources/tiitel.png" alt="Tiitel" width="800" height="auto">
+            </div>
+        </div>
+
+    <br><br>
+
+    <div class="sektsioon">
+        <div class="tekstipool">
+            <h2>Mis on Minecraft?</h2>
+            <p>Minecraft on loov ja põnev mäng, kus saad avastada lõputut plokilist maailma, 
+                ehitada fantastilisi struktuure ja lasta oma kujutlusvõimel lennata. 
+                <br>
+                Ükskõik, kas eelistad seigelda salapärastes koobastes või luua oma unistuste loss, Minecraftis
+                on võimalused piiritud.</p>
+        </div>
+        <div class="meediapool">
+            <img src="kodu_resources/sektsioon1.jpg" alt="1. sektsiooni meedia" width="400" height="auto">
+        </div>
+    </div>
+
+    <hr class="sektsioonivahe">
+
+    <div class="sektsioon">
+        <div class="meediapool">
+            <img src="kodu_resources/sektsioon2.png" alt="2. sektsiooni meedia" width="400" height="auto">
+        </div>
+        <div class="tekstipool">
+            <h2>Kas Minecraftis saab pelada ka koos semudega?</h2>
+            <p>Jah, Minecrafti mängimine koos sõpradega on imetore ning toob kaasa palju seiklusi ja lõbusaid hetki! Ühinege serverites või looge oma maailm, kus saate koos avastada, ehitada ja lõputult nautida üksteise seltskonda.</p>
+        </div>
+    </div>
+
+    <hr class="sektsioonivahe">
+
+    <div class="sektsioon">
+        <div class="tekstipool">
+            <h2>Section 3 Title</h2>
+            <p>This is the text for the third sektsioon. It can wrap up the topic or add final thoughts corresponding to the media shown beside.</p>
+        </div>
+        <div class="meediapool">
+            <img src="path/to/your/image3.jpg" alt="3. sektsiooni meedia" width="400" height="auto">
+            <!-- <video width="400" controls><source src="path/to/video3.mp4" type="video/mp4"></video> -->
+        </div>
+    </div>
+    </div>
 </body>
 </html>
