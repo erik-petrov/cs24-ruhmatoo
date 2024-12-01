@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="globalStyles.css">
+    <!-- Globaalne stiilileht-->
+    <link rel="stylesheet" type="text/css" href="/global_resources/globalStyles.css">
+    <!-- Lehe enda stiilileht-->
+    <link rel="stylesheet" type="text/css" href="tutorial_resources/stylesTutorial.css">
+    <!-- Minecraft font tiitlite jaoks, millel oleks ka täpitähed-->
+    <link href="https://fonts.cdnfonts.com/css/minecraft-3" rel="stylesheet">
+    <!-- Minecraft font sisuteksti jaoks, kasutada saab "font-family: 'Minecraft', sans-serif;"-->
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/minecraftia" type="text/css"/>
+    <!--Viitan siinkohas oma projektikaaslasele Henrile, kes leidis ülesse Minecraft font'id-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tutorial leht
-    </title>
+    <!--Vahelehe nimi-->
+    <title>Minecrafti tutvustus</title>
 </head>
 <body>
     <!--Navigatsiooni menu struktuuri kood, kui muudad seda osa siis peab seda ka teistele lehtedele kopeerima, selle elemendi stiliseerimine on global style sheetis-->
@@ -16,6 +24,217 @@
             <li><a href=modid.html>Modid</a></li>
         </ul>
     </nav>
-    <p>tutorial leht sisu</p>
+
+    <div class="tiitliPilt">
+        <img src="kodu_resources/tiitel.png" alt="Tiitel" width="800" height="auto">
+    </div>
+    <header>
+        <h1>Siin lehel saate teada kuidas alustada oma elamusterohke Minecrafti seiklus</h1>
+    </header>
+
+    <div class="sisu">
+        <section id="sissejuhatus">
+            <h2>Sissejuhatus</h2>
+            <p>
+                Tere tulemast Minecrafti õpetuste lehele! Olenemata sellest, kas oled alles alustamas oma seiklust või soovid lihvida oma oskusi, oled jõudnud õigesse kohta.
+                Sellel leheküljel juhatame sind läbi mängu põhitõdede, õpetame koguma vajalikke ressursse, ehitama imelisi ehitisi ja kaitsma end mängu koletiste eest (creeper). Samuti jagame näpunäiteid edasijõudnutele, kes soovivad arendada oma oskusi.
+                Minecraft on mäng, kus ainsaks piiriks on sinu enda kujutlusvõime. Astu oma esimene samm ja avasta, mida kõike see imeline mäng sulle pakkuda võib!
+            </p>
+        </section>
+
+        <section id="stardisammud">
+            <h2>Esimesed sammud</h2>
+                <h4>Minecrafti allalaadimine ja installimine</h4>
+                <p>    
+                    Mine ametlikule <a href="https://www.minecraft.net/en-us">Minecrafti veebilehele</a> ja osta või laadi alla sobiv versioon (Java Edition või Bedrock Edition, olenevalt platvormist).
+                    Järgi installeerimisjuhiseid ja ava mäng, et alustada.
+                </p>
+
+                <h4>Nuppude ja menüüde tutvustus</h4>
+                <p>
+                    Liikumiseks kasuta W, A, S, D klahve. <br>
+                    Hiire vasak klõps: lõhu blokke või ründa.<br>
+                    Hiire parem klõps: aseta blokk või kasuta eset.<br>
+                    Tühikuklahv: hüppa.<br>
+                    Shift: kükitamine.<br>
+                    Inventari avamiseks kasuta E-klahvi.<br>
+                    Pausimenüü avamiseks vajuta Esc.<br>
+                </p>
+
+                <h4>Esimese maailma loomine</h4>
+                <p>
+                    Vajuta "Create New World" nuppu.<br>
+                    Pane maailmale nimi ja vali mängurežiim.<br>
+                    Muuda vajadusel maailma seadeid.<br>
+                    Vajuta "Create" ja oota, kuni maailm genereeritakse.<br>
+                </p>
+
+                <h4>Mängu alustamine</h4>
+                <p>
+                    Alusta puude raiumisega (kasuta selleks vasakut hiireklõpsu), tee puitplokkidest tööpink ja alusta tööriistade (nt kirves, mõõk) valmistamist.
+                    Leia turvaline koht, kuhu öösel varjuda, sest pimeduse saabudes ilmuvad koletised.
+                </p>
+        </section>
+
+        <section id="juhend">
+            <h2>Ellujäämisrežiimi õpetus</h2>
+            <p>
+                Kuna ellujäämisrežiim on Minecrafti peamine mängurežiim, siis keskendume siin õpetuses just sellele.
+            </p>
+            <ul>
+                <li><strong>Puidu kogumine:</strong> Leia endale mõni lähim puu. Löö puutüvesid, kuni kogud 10–20 puuplanku. Need on esimesed materjalid tööriistade ja varjualuse loomiseks.</li>
+                <li><strong>Töölaud ja tööriistad:</strong> Kasuta kogutud puitu, et teha töölaud (<em>Crafting Table</em>). Aseta see maapinnale ja valmista esimesed tööriistad, nagu puidust kirves ja labidas.</li>
+                <li><strong>Varjualuse ehitamine:</strong> Leia turvaline koht ja ehita lihtne varjualune, näiteks 3x3 puidust kuubik. Tee kindlasti uks ja valgusta ruum tõrvikutega, et vältida koletiste tekkimist.</li> <br>
+                <li><strong>Esimesed tööriistad: </strong> Meisterda endale kõigepealt kirves, labidas ja mõõk. Kui leiad kivi, uuenda tööriistad kiviseks – need kestavad kauem ja töötavad kiiremini.</li>
+                <li><strong>Let there be light: </strong>Kui leiad söe või põletad puitu ahjus, tee tõrvikud, mis aitavad sul valgustada pimedaid kohti.</li> <br>
+                <li>Otsi lähedalt loomi, näiteks sigu, lehmi või kanu, ning küti neid toidu saamiseks.</li>
+                <li>Korja seemneid murukõrsi lõhkudes ja istuta need, et kasvatada nisu, millest saab teha leiba.</li>
+                <li>Väldi toore toidu söömist – küpseta liha ahjus, et saada täisväärtuslikuma toidu.</li> <br>
+                <li>Kui päike loojub, ilmuvad ohtlikud koletised, nagu zombid, luukered ja creeper’id. Selle vältimiseks:
+                    <ul>
+                        <li>Veendu, et oled oma varjualuses turvaliselt peidus.</li>
+                        <li>Kui sul on olemas voodi, kasuta seda öö vahelejätmiseks (voodi valmistamiseks on vaja kolme villa ja kolme planku).</li>
+                    </ul>
+                </li>
+                <li><strong>Kaevandamine:</strong> Leia lähim mägi või koobas, et otsida väärtuslikke materjale, nagu näiteks rauamaaki või kulda. Raud aitab sul valmistada tugevamaid tööriistu ja varustust.</li>
+                <li><strong>Avastamine:</strong> Kui oled oma seiklusele alguse pannud, saad alustada maailma uurimist – leia külasid, koopaid ja muid huvitavaid kohti.</li>
+            </ul>
+            <p>
+                Lisaks tuleb õppida ära kõige algelisemad meisterdamisretseptid ära ning tutvuda mängu mehhaanikaga. Vajalike baas meisterdamisretseptid leiad <a href="https://www.minecraftcrafting.info/">siit</a> ning soovi korral võid vaadata Mänguvälja videot Minecraftis ellujäämise kohta.
+            </p>
+            <iframe width="820" height="455" src="https://www.youtube.com/embed/MxBHrZuXXwE?si=s1rBFgSLNuzqIWdU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+
+        <section id="ehitamine">
+            <h2>Esimene maja</h2>
+            <p>
+                Minecrafti peamine eripära on see, et ehitamise võimalused on piiramatud. Lase oma loomingul lennata ja eksperimenteeri erinevate stiilide ja materjalidega! Kui tunned, et jääd hätta, siis internet on pungil täis erinevaid juhendeid ja videoid, kust leiad kindla peale mõningat inspiratsiooni oma projekti loomiseks.
+            </p>
+        </section>
+
+        <section id="koletised">
+            <h2>Koletistega võitlemine ja ellujäämine</h2>
+            <p>Koletised on ellujäämisrežiimi vältimatu osa ja nendega kohtumine toimub enamasti öösel või pimedates kohtades.</p>
+            
+            <h3>Peamised koletised.</h3>
+            <ul>
+                <li><strong>Zombid:</strong> Lihtsad vastased, liiguvad aeglaselt. Kasuta neid, et harjutada mängu võitlemismehhanikat.</li>
+                <li><strong>Luukered:</strong> Kasutavad vibusid ja ründavad kaugelt. Parim taktika distantsi vähendamine ja kiire ründamine mõõgaga.</li>
+                <li><strong>Creeperid:</strong> Plahvatavad sinu lähedal, kui oled liiga kaua nende kõrval. Parim viis on liikuda kaugemale ja lasta vibuga.</li>
+                <li><strong>Ämblikud:</strong> Ründavad nii maapinnal kui ka kõrgematel pindadel. Päeval on nad passiivsed, öösel agressiivsed. Oskavad ronida ja lähivõtluses kipuvad hüppama sinu suunas.</li>
+                <li><strong>Endermanid:</strong> Ründavad ainult siis, kui neile otsa vaatad. Kui näed Endermanni, väldi talle otsa vaatamist. Kardab vett ja saab teleporteeruda.</li>
+            </ul>
+            <p>
+                See on kõigest põgus kokkuvõte peamistest koletistest, keda kohtad oma teekonna jooksul. Kui me kirjeldaks tervet nimekirja mobidest, mis on tänavu Minecraftis olemas, siis see juhendus oleks tunduvalt pikem ning segasem. Küll aga kui tunned siiski huvi ja tahad lugeda rohkem, siis lisainfot leiad <a href="https://minecraft.fandom.com/wiki/Mob">siit</a>.
+            </p>
+        
+            <h3>Relvade ja kaitserüü valmistamine</h3>
+            <ol>
+                <strong>Tööriistad ja relvad:</strong> Alusta kivist relvade valmistamisega, hiljem loo rauast ja teemantidest mõõgad. <br>
+                <strong>Kaitseriie:</strong> Puitu või kivi riiete valmistamiseks kasutada ei saa, kuid raud, teemandid ja netherite pakuvad head kaitset.
+                    <ul>
+                        <li>Kogu rauda koopast ja sulata ahjus, et luua esialgne rüü.</li>
+                        <li>Parim kaitse on teemant- või netherite-rüü, kuid nende valmistamine nõuab rohkem ressursse.</li>
+                    </ul>
+            </ol>
+        
+            <h3>Taktikad kaitseks</h3>
+            <ul>
+                <li><strong>Valgustus:</strong> Paiguta tõrvikud oma ehitiste ja koobaste ümber, sest mobid ei ilmu valgustatud aladel.</li>
+                <li><strong>Turvaline varjualune:</strong> Ehita turvaline kodu, mille uksed ja seinad hoiavad koletised väljas. Klaasist aknad võimaldavad jälgida maja ümbrust.</li>
+                <li><strong>Barjäärid ja aiad:</strong> Kasuta aedu või kaeva sügavaid kraave, et takistada koletiste ligipääsu.</li>
+            </ul>
+        
+            <h3>Võluesemed ja potion’id</h3>
+            <ul>
+                <li><strong>Võlu oma relvi ja soomust:</strong> Kasuta võlulauda (Enchantment Table) relvade tugevdamiseks, näiteks lisades mõõgale "Sharpness" või vibule "Power".</li>
+                <li><strong>Potionid:</strong> Valmista alkeemialaual jooke, mis annavad eelise, näiteks tervise taastamise või nähtamatuse.</li>
+            </ul>
+        </section>
+
+        <section id="avastamine">
+            <h2>Maailma avastamine</h2>
+            <p>Minecrafti maailm on tohutu ja pakub avastamiseks palju põnevat – alates maa-alustest koobastest kuni eksootiliste bioomideni ja iidsete struktuurideni. Alljärgnevalt on toodud peamised juhised ja nõuanded maailma avastamiseks.</p>
+            
+            <h3>Koopad ja kaevandamine</h3>
+            <p>Koopad on suurepärased kohad ressursside kogumiseks, mida tõenäoliselt pead hakkama regulaarselt külastama. Siiski, nad võivad olla ohtlikud, seega siin on mõned näpunäited ellujäämiseks:</p>
+            <ul>
+                <li><strong>Alustamine:</strong> Kaevandamiseks kasuta tööriistu. Tööriistu saab valmistada meisterdamislaua abil.</li>
+                <li><strong>Olulised ressursid:</strong>
+                <ul>
+                    <li><strong>Süsi:</strong> Vajalik tõrvikute, toidu küpsetamiseks ja ahjus maakide töötlemiseks.</li>
+                    <li><strong>Raud:</strong> Kasutatakse tööriistade, kaitseriie ja paljude muude esemete valmistamiseks.</li>
+                    <li><strong>Teemandid:</strong> Väärtuslik materjal tugevate tööriistade, kaitserüü ja relvade loomiseks. Lisaks seda on vaja võlulaua meisterdamiseks.</li>
+                </ul>
+                </li>
+                <li><strong>Nipid:</strong>
+                <ul>
+                    <li>Alati kanna kaasas tõrvikuid, et valgustada oma teekonda.</li>
+                    <li>Varu piisavalt toitu ja hoia kaasas mõõka, et kaitsta end koletiste eest.</li>
+                </ul>
+                </li>
+            </ul>
+            
+            <h3>Bioomide uurimine</h3>
+            <p>Minecrafti maailm koosneb erinevatest bioomidest, millest igaüks pakub unikaalseid ressursse ja maastikke:</p>
+            <ul>
+                <li><strong>Mets ja lagendikud:</strong> Hea koht puidu kogumiseks, loomade leidmiseks ja oma kodu ehitamiseks.</li>
+                <li><strong>Kõrb:</strong> Siit leiad liiva, kaktust ja mõnikord ka kõrbetempleid.</li>
+                <li><strong>Mäed:</strong> Siin leiad palju kivimit ja on ideaalne koht mäelossi ehitamiseks.</li>
+                <li><strong>Lumealad:</strong> Siit leiad lund ja jääd, mida saad kasutada ehitamiseks.</li>
+                <li><strong>Džungel:</strong> Pakub haruldasi materjale, nagu bambus ja kakaooad.</li>
+                <li><strong>Ookeanid:</strong> Veealused templid, põhja läinud laevad ja mereelustik nõuavad avastamist.</li>
+            </ul>
+            
+            <h3>Ehitiste leidmine</h3>
+            <p>Minecrafti maailmas leidub mitmeid maailma genereerimisel loodud ehitisi, kust leiad endale vajalikke ressursse.</p>
+            <ul>
+                <li><strong>Külad:</strong> Küladest leiad elanikke, kellega saab kaubelda, ja kirste, mis sisaldavad väärtuslikke esemeid.</li>
+                <li><strong>Metsalossid:</strong> Ohtlikud ning sisaldavad suurt hulka koletisi.</li>
+                <li><strong>Netheri kindlused:</strong> Leidub põrgus ja on hädavajalikud <em>The End</em>'i jõudmiseks.</li>
+                <li><strong>Templeid ja varemeid:</strong> Sisaldavad lõkse ja aardeid – vaata kuhu astud.</li>
+            </ul>
+            
+            <h3>Nõuanded avastamiseks</h3>
+            <ul>
+                <li><strong>Kaardista oma teekond:</strong> Kasuta paberit ja kompassi kaardi loomiseks, et mitte ära eksida.</li>
+                <li><strong>Valmista end ette:</strong> Võta kaasa piisavalt toitu, varutööriistad ja tõrvikud.</li>
+                <li><strong>Hoidu eksimisest:</strong> Ehita kordumiskohtadesse kõrged märgistustornid või kasuta tõrvikuid, et märgistada oma rada.</li>
+            </ul>
+        </section>
+
+        <section id="edasijõudnutele">
+            <h2>Edasijõudnutele mõeldud õpetused</h2>
+            <p>Kui oled Minecrafti põhitõdedega juba tuttav ja tahad viia oma oskused järgmisele tasemele, siis siin on juhend edasijõudnutele. Need tehnikad ja projektid aitavad sul mängu keerulisemaid aspekte tundma õppida ja oma loovust maksimaalselt rakendada.</p>
+            
+            <h3>Punakivi süsteemid</h3>
+            <ul>
+                <li><b>Automaatne uks:</b> Õpi looma uksi, mis avanevad ja sulguvad automaatselt.</li>
+                <li><b>Kellamehhanismid:</b> Automaatse signaali saatmine kindla ajavahemiku järel.</li>
+                <li><b>Punavoolu loogika:</b> Kasuta loogikaväravaid (AND, OR, NOT) ja ehita keerukamaid süsteeme.</li>
+            </ul>
+            
+            <h3>Suurprojektid</h3>
+            <ul>
+                <li>Elanikepõhine farm</li>
+                <li>Raudfarm</li>
+                <li>Mobide farm</li>
+                <li>Kala- või XP-farm</li>
+                <li>Suur loss või kindlus</li>
+                <li><em>Nether</em>'i ja <em>The End</em>'i farmid</li>
+            </ul>
+        </section>
+
+        <section id="lõpusõnad">
+            <h2>
+                Kokkuvõte
+            </h2>
+            <p>
+                Minecraft on mäng, kus ainus piirang on Sinu kujutlusvõime. Alates lihtsatest onnidest kuni suurte lossideni, iga mängija saab leida oma mängustiili ja viisi maailma avastamiseks. Ära karda eksperimenteerida ja uurida alternatiivseid võimalusi. Minecraft on mäng, mida alati on meeldiv teatud aja tagant nautida. Kui oled lõpetanud selle õpetuse lugemise, vaata üle ka meie modide lehekülg üle ning kui saad põhitõed selgeks, siis soovitame soojalt eksperimenteerida ka nendega. Ning tead, võta paar sõpra ka kaasa, seltsis lõbusam.<br>
+                Kui vajad täiendavat abi, on olemas suur Minecrafti kogukond, kus mängijad jagavad oma teadmisi ja kogemusi. Ära unusta, et internetist leiad lõputult õpetusi ja inspiratsiooni. <br>
+                <b>Meeldejäävat seiklust!</b>
+            </p>
+        </section>
+    </div>
 </body>
 </html>
