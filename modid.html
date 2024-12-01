@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="globalStyles.css">
+    <link rel="stylesheet" type="text/css" href="./global_resources/globalStyles.css">
+    <link rel="stylesheet" type="text/css" href="./kodu_resources/stylesKodu.css">
+    <link rel="stylesheet" type="text/css" href="./modid_resources/mod.css">
+    <!-- Minecraft font tiitlite jaoks, kasutada saab "font-family: 'MinecraftiaRegular'; font-weight: normal; font-style: normal;"-->
+    <link href="https://fonts.cdnfonts.com/css/minecraft-4" rel="stylesheet">
+    <!-- Minecraft font sisuteksti jaoks, kasutada saab "font-family: 'Minecraft', sans-serif;"-->
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/minecraftia" type="text/css"/>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Modid leht
@@ -16,8 +22,65 @@
             <li><a href=modid.html>Modid</a></li>
         </ul>
     </nav>
-    <h1>Mis on Minecraft mod?</h1>
-    <p>Minecraft mod - on kohandatud täiendused mängule, mis võivad ulatuda väikestest QoL (Quality of life) kuni suuremahuliste, kogu mängu olemust ja kulgu muutvateni.</p>
-    <img src="https://cdn.apexminecrafthosting.com/img/uploads/2021/05/21163117/curseforge-logo.png" alt="curseforge logo"> 
+    <div class="vaade">
+        <!-- Pildi ja tiitli konteiner-->
+        <div class="tiitliKonteiner">
+            <img class="taustapilt" src="modid_resources/bg.png" alt="Taustapilt">
+            <div class="tiitliPilt">
+                <img src="modid_resources/title.png" alt="Tiitel" width="1000" height="auto">
+            </div>
+        </div>
+
+    <br><br>
+
+    <div class="sektsioon">
+        <div class="tekstipool">
+            <h2>Mis on Minecraft mod?</h2>
+            <p>Minecraft mod - on kohandatud täiendused mängule, mis võivad ulatuda väikestest QoL (Quality of life) kuni suuremahuliste, kogu mängu olemust ja kulgu muutvateni.</p>
+                <br>
+        </div>
+        <div class="meediapool">
+            <img src="modid_resources/sec1.png" alt="1. sektsiooni meedia" width="400" height="auto">
+        </div>
+    </div>
+
+    <hr class="sektsioonivahe">
+    <div class="sektsioon">
+        <div class="meediapool">
+            <img src="modid_resources/sec2.png" alt="2. sektsiooni meedia" width="400" height="auto">
+        </div>
+        <div class="tekstipool">
+            <h2>Mis on Minecraft server?</h2>
+            <p> Minecraft server - on mänguserver, kus mängijad saavad mängida koos või üksteise vastu. </p>
+                <br>
+        </div>
+    </div>
+
+    <hr class="sektsioonivahe">
+    <div class="sektsioon">
+        <div class="tekstipool">
+            <h2>Aga kuidas pelaada serveritel?</h2>
+            <p>Näiteks võite vaadata selle gif-fi, kus on kujutatud kuidas connectida serverisse</p>
+        </div>
+        <div class="meediapool">
+            <img src="https://www.mcmiddleearth.com/community/attachments/13176/" alt="giff server connect">
+        </div>
+    </div>
+    <hr class="sektsioonivahe">
+    <div class="sektsioon">
+        <div class="meediapool">
+            <div id="mod_list">
+                <ul></ul>
+            </div>
+            <script src="modid_resources/scrape.js"></script>
+        </div>
+        <div class="tekstipool" id="needsChange">
+            <h2>Aga kuidas pelaada moddidega?</h2>
+            <p>Kui teil on juba Minecraft allalaaditud, võite ka allalaadida <a href="https://www.curseforge.com/download/app">CurseForge-i clienti</a>, kus saab installida modid ühte klikkiga.
+            <br>Vasakul on toodud **COUNT** randoomsed modid, mis te võite allalaadida.
+            </p>
+
+        </div>
+    </div>
 </body>
 </html>

@@ -1,0 +1,48 @@
+.tiitliPilt img {
+    transform: translate(-50%, -350%) !important;
+}
+
+.taustapilt {
+    height: 95vh !important;
+}
+
+h2 {
+    font-family: 'Minecraft', sans-serif;
+    font-size: 2rem;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+#mod_list {
+  position: relative;
+}
+#mod_list ul {
+  position: relative;
+}
+#mod_list ul li {
+  position: relative;
+  left: 0;
+  color: #fce4ec;
+  list-style: none;
+  margin: 4px 0;
+  border-left: 2px solid #537230;
+  transition: 0.5s;
+  cursor: pointer;
+}
+#mod_list ul li:hover {
+  left: 10px;
+}
+#mod_list ul li span a{
+  color: white;
+  text-decoration: none;
+  position: relative;
+  padding: 8px;
+  padding-left: 12px;
+  display: inline-block;
+  z-index: 1;
+  transition: 0.5s;
+}
+#mod_list ul li:hover span a{
+  color: #48613e;
+}
+
