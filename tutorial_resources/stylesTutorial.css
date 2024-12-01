@@ -4,36 +4,75 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('/tutorial_resources/menüü_taust.jpg'); 
-    background-size: cover; 
-    background-repeat: no-repeat; 
+    background-image: url('/tutorial_resources/dirt_background.jpg'); 
+    background-size: contain; 
+    background-repeat: repeat; 
     background-position: top; 
     padding: 18px;
-    display: flex;
+    display: grid;
     justify-content: center;
 }
 
-.sisu {
-    flex: 1;
-}
-
-.sisu h1 {
+header h1, .sisu h2 {
     font-family: 'Minecraft', sans-serif;
-    font-size: 2rem; 
-    margin-bottom: 1rem; 
+    color: #66cdaa;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-.sisu h2 {
-    font-family: 'Minecraft', sans-serif;
-    font-size: 2rem; 
-    margin-bottom: 1rem; 
-}
-
-.sisu p {
+.sisu p, .sisu ul, .sisu ol {
     font-family: 'MinecraftiaRegular';
-    font-weight: normal;
-    font-style: normal;
-    line-height: 1.6; 
-    margin-bottom: 1rem; 
+    line-height: 1.8;
+    margin: 15px 0;
+    text-align: justify;
+}
+
+.sisu section {
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #2a2a2a;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+}
+
+/* Linkide stiil */
+.sisu a {
+    color: #66cdaa;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.sisu a:hover {
+    color: #ffffff;
+}
+
+/* Loetelude stiilid */
+.sisu ul, .sisu ol {
+    margin-left: 15px;
+}
+
+/* Nupud ja interaktiivsed osad */
+button {
+    background-color: #66cdaa;
+    border: none;
+    padding: 10px 15px;
+    color: #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px 0;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #50a693;
+}
+
+.tiitliPilt {
+    margin-top: 70px; 
+    margin-bottom: 20px;
+    text-align: center;
 }
 
