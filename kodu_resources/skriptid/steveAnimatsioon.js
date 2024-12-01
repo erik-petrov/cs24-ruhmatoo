@@ -12,4 +12,4 @@ setInterval(() => {
     if (Math.random() > 0.7) { // 30% et steve ilmub
         showSteve();
     }
-}, 10000); // Kordame iga 10 sekundi tagant
+}, 15000); // Kordame võimalust iga 15 sekundi tagant
