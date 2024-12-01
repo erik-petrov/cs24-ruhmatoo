@@ -1,0 +1,15 @@
+
+.steve-gif {
+    position: fixed;
+    bottom: -200px;
+    left: 20px;
+    width: 150px;
+    height: auto;
+    opacity: 0;
+    transition: opacity 0.5s, bottom 0.5s;
+}
+
+.steve-yleval {
+    bottom: 20px;
+    opacity: 1;
+}
