@@ -21,6 +21,6 @@ document.addEventListener('DOMContentLoaded', () => {
         // Paneme animatsioonid tagasi pärast 100ms
         setTimeout(() => {
             titleImage.classList.remove('clicked');
-        }, 100);
+        }, 200);
     });
 });
