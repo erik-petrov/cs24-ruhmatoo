@@ -11,11 +11,27 @@ body {
     height: auto;
     display: block;
 }
+
+/* Keyframes ja animatsiooni sätted üles-alla liikumiseks tiitlil*/
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
 .tiitliPilt img {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -340%);
+    top: 230px;
+    left: 230px;
+    animation: float 3s infinite ease-in-out; 
+    transition: transform 0.2s ease;
+}
+
+.tiitliPilt img.clicked {
+    animation: none;
 }
 
 .sektsioon {
