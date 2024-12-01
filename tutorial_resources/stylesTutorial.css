@@ -1,3 +1,7 @@
+@font-face { font-family: Minecraft_f; src: url('/global_resources/Minecraft-Font-main/Minecraft.otf'); } 
+@font-face { font-family: Minecraft_fb; font-weight: bold; src: url('/global_resources/Minecraft-Font-main/Minecraft-Bold.otf');}
+/* https://stackoverflow.com/questions/7961721/how-do-i-install-a-custom-font-on-an-html-site */
+
 body {
     background-color: #1e1e1e;
     color: #e0e0e0;
@@ -13,8 +17,8 @@ body {
     justify-content: center;
 }
 
-.sisu h2 , .sisu h4{
-    font-family: 'Minecraft', sans-serif;
+.sisu h2 , .sisu h4, .sisu h3{
+    font-family: 'Minecraft_f', sans-serif;
     color: #66cdaa;
     text-shadow: 2px 2px 4px #000000;
     text-align: center;
@@ -23,7 +27,7 @@ body {
 
 /* Loetelude kujundus */
 .sisu p, .sisu ul, .sisu ol {
-    font-family: 'Minecraft', sans-serif;
+    font-family: 'Minecraft_f', sans-serif;
     line-height: 1.8;
     margin: 15px 0;
     text-align: justify;
@@ -49,8 +53,46 @@ body {
     transition: color 0.3s ease;
 }
 
+.sisu a:hover {
+    color: #b1eecb;
+}
+
 .tiitliPilt {
-    margin-top: 70px; 
+    margin-top: 80px; 
     margin-bottom: 20px;
     text-align: center;
+}
+
+/* Ringikujulise nupu loomine */
+.play-button {
+    width: 25px; 
+    height: 25px;
+    background-color: #2a2a2a; 
+    border: 4px solid #c0c0c0;
+    border-radius: 50%; /* Muudab kolmnurga täielikult ringikujuliseks */
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Varju lisamine */
+    outline: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.play-button:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5); 
+}
+
+/* Kolmnurga (play ikooni) stiil https://css-tricks.com/making-pure-css-playpause-button/ */
+.play-button:before {
+    content: '';
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 4px 0 4px 12px; /* Kolmnurga mõõtmed */
+    border-color: transparent transparent transparent #ffffff; 
+    transition: border-color 0.3s ease;
 }
