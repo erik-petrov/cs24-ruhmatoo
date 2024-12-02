@@ -9,6 +9,12 @@ h2 {
     font-size: 2rem;
 }
 
+p {
+  font-family: 'MinecraftiaRegular';
+  font-weight: normal;
+  font-style: normal;
+}
+
 #mod_list {
   position: relative;
 }
