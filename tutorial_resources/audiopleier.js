@@ -3,10 +3,10 @@
 // Helifailide kaart, helide allikas https://minecraft.wiki/w/Category:Mob_sounds
 const soundEffects = {
     creeper: 'tutorial_resources/soundeffects/Creeper_fuse.ogg',
-    zombie: 'tutorial_resources/soundeffects/Zombie_idle.ogg',
+    zombie: 'tutorial_resources/soundeffects/Zombie_idle2.ogg',
     enderman: 'tutorial_resources/soundeffects/Enderman_idle2.ogg',
-    spider: 'tutorial_resources/soundeffects/Spider_idle3.ogg',
-    skeleton: 'tutorial_resources/soundeffects/Skeleton_idle1.ogg'
+    ämblik: 'tutorial_resources/soundeffects/Spider_idle3.ogg',
+    luukere: 'tutorial_resources/soundeffects/Skeleton_idle1.ogg'
 };
 
 // Lisa sündmuste kuulaja igale nupule
