@@ -1,5 +1,5 @@
-@font-face { font-family: Minecraft_f; src: url('/global_resources/Minecraft-Font-main/Minecraft.otf'); } 
-@font-face { font-family: Minecraft_fb; font-weight: bold; src: url('/global_resources/Minecraft-Font-main/Minecraft-Bold.otf');}
+@font-face { font-family: Minecraft_f; src: url('../global_resources/Minecraft-Font-main/Minecraft.otf'); } 
+@font-face { font-family: Minecraft_fb; font-weight: bold; src: url('../global_resources/Minecraft-Font-main/Minecraft-Bold.otf');}
 /* https://stackoverflow.com/questions/7961721/how-do-i-install-a-custom-font-on-an-html-site */
 
 body {
@@ -7,7 +7,7 @@ body {
     color: #e0e0e0;
     font-family: Arial, sans-serif; /* Teksti font */
     margin: 0; /* Äärte eemaldamine */
-    background-image: url('/tutorial_resources/dirt_background.jpg'); /* Minecrafti mullablokk taustapildiks */
+    background-image: url('../tutorial_resources/dirt_background.jpg'); /* Minecrafti mullablokk taustapildiks */
     background-size: contain; 
     background-repeat: repeat; 
     background-position: top; /* Taustapildi kohendamine */
