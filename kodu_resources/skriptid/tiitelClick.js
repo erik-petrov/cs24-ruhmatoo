@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const scale = getRandom(1, 1.1); // suvaline suurus tavalise ja 1.1x vahel
 
         // lisame arvutatud transformatsioonid pildile
-        titleImage.style.transform = ` rotate(${rotate}deg) scale(${scale})`;
+        titleImage.style.transform = `translate(-50%, 0) rotate(${rotate}deg) scale(${scale})`;
 
         // Paneme animatsioonid tagasi pärast 100ms
         setTimeout(() => {
