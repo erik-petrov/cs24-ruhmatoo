@@ -79,3 +79,25 @@ body {
     font-size: 4rem;
     margin-bottom: 30px;
 }
+
+.uuri-edasi-sektsioon {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+.uuri-edasi-sektsioon img {
+    cursor: pointer;
+    transition: border 0.3s ease;
+}
+
+.uuri-edasi-sektsioon img:hover {
+    border: 3px solid #000;
+}
+
+.uuri-edasi-tiitel {
+    text-align: center;
+    font-family: 'Minecraft', sans-serif;
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
