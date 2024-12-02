@@ -16,6 +16,10 @@ document.addEventListener('DOMContentLoaded', () => {
         const rotate = getRandom(-2, 2); // suvaline keerutus -2 ja 2 kraadi vahel
         const scale = getRandom(1, 1.1); // suvaline suurus tavalise ja 1.1x vahel
 
+        // play click audio
+        const audio = new Audio('kodu_resources/audio/minecraft_click.wav');
+        audio.play();
+
         // lisame arvutatud transformatsioonid pildile
         titleImage.style.transform = `translate(-50%, 0) rotate(${rotate}deg) scale(${scale})`;
 
