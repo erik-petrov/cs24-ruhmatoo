@@ -1,0 +1,97 @@
+@font-face { font-family: Minecraft_f; src: url('../global_resources/Minecraft-Font-main/Minecraft.otf'); } 
+@font-face { font-family: Minecraft_fb; font-weight: bold; src: url('../global_resources/Minecraft-Font-main/Minecraft-Bold.otf');}
+/* https://stackoverflow.com/questions/7961721/how-do-i-install-a-custom-font-on-an-html-site */
+
+body {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif; /* Teksti font */
+    margin: 0; /* Äärte eemaldamine */
+    background-image: url('../tutorial_resources/dirt_background.jpg'); /* Minecrafti mullablokk taustapildiks */
+    background-size: contain; 
+    background-repeat: repeat; 
+    background-position: top; /* Taustapildi kohendamine */
+    padding: 18px;
+    display: grid;
+    justify-content: center;
+}
+
+.sisu h2 , .sisu h4, .sisu h3{
+    font-family: 'Minecraft_f', sans-serif; /* Netist allalaaditud Minecrafti font */
+    color: #66cdaa;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+    margin-bottom: 20px; /* Lisab vahe järgmise selle ja järgneva elemendi vahel */
+}
+
+/* Loetelude kujundus */
+.sisu p, .sisu ul, .sisu ol {
+    font-family: 'Minecraft_f', sans-serif;
+    line-height: 1.8; /* Suurendab reavahet */
+    margin: 15px 0; /* Lisab vertikaalse vahe */
+    text-align: justify; /* Rööpkujundus */
+}
+
+.sisu ul, .sisu ol {
+    margin-left: 15px; /* Loetelud on kergelt nihutatud */
+}
+
+.sisu section {
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #2a2a2a;
+    border-radius: 8px; /* Ümarad nurgad */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Varjuefekt */
+    max-width: 800px; /* Sektsiooni maksimaalne laius */
+}
+
+/* Linkide stiil */
+.sisu a {
+    color: #66cdaa;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Sujuv üleminek hover-efekti korral */
+}
+
+.sisu a:hover {
+    color: #b1eecb; /* Hiirega peale minnes heledam roheline */
+}
+
+.tiitliPilt {
+    margin-top: 90px; /* Ülemine vahe */
+    margin-bottom: 20px; /* Alumine vahe */
+    text-align: center;
+}
+
+/* Ringikujulise nupu loomine */
+.play-button {
+    width: 25px; 
+    height: 25px;
+    background-color: #2a2a2a; 
+    border: 4px solid #c0c0c0;
+    border-radius: 50%; /* Muudab täielikult ringikujuliseks */
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Varju lisamine */
+    outline: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.play-button:hover {
+    transform: scale(1.1); /* Suureneb hoverimisel */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5); /* Vari hoverimisel */
+}
+
+/* Kolmnurga stiil https://css-tricks.com/making-pure-css-playpause-button/ */
+.play-button:before {
+    content: '';
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 4px 0 4px 12px; /* Kolmnurga mõõtmed */
+    border-color: transparent transparent transparent #ffffff; 
+    transition: border-color 0.3s ease;
+}
