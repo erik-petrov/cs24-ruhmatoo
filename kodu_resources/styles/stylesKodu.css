@@ -15,17 +15,17 @@ body {
 /* Keyframes ja animatsiooni sätted üles-alla liikumiseks tiitlil*/
 @keyframes hõlju {
     0%, 100% {
-        transform: translateY(0);
+        transform: translate(-50%, 0);
     }
     50% {
-        transform: translateY(-10px);
+        transform: translate(-50%, -10px);
     }
 }
 
 .tiitliPilt img {
     position: absolute;
-    top: 230px;
-    left: 230px;
+    top: 40vh;
+    left: 50%;
     animation: hõlju 3s infinite ease-in-out; 
     transition: transform 0.2s ease;
 }
