@@ -9,7 +9,7 @@ h2 {
     font-size: 2rem;
 }
 
-p div li {
+p, div, li{
   font-family: 'MinecraftiaRegular';
   font-weight: normal;
   font-style: normal;
