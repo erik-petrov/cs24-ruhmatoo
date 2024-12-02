@@ -91,13 +91,31 @@ body {
     transition: border 0.3s ease;
 }
 
-.uuri-edasi-sektsioon img:hover {
-    border: 3px solid #000;
-}
-
 .uuri-edasi-tiitel {
     text-align: center;
     font-family: 'Minecraft', sans-serif;
     font-size: 4rem;
     margin-bottom: 20px;
+}
+
+@keyframes tiitlid-keeruta {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(-5deg);
+    }
+    50% {
+        transform: rotate(5deg);
+    }
+    75% {
+        transform: rotate(-5deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.uuri-edasi-sektsioon img:hover {
+    animation: tiitlid-keeruta 3s infinite;
 }
