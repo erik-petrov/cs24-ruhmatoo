@@ -1,6 +1,4 @@
-.tiitliPilt img {
-    transform: translate(-50%, -350%) !important;
-}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 
 .taustapilt {
     height: 95vh !important;
@@ -10,8 +8,6 @@ h2 {
     font-family: 'Minecraft', sans-serif;
     font-size: 2rem;
 }
-
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 
 #mod_list {
   position: relative;
