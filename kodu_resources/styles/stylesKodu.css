@@ -1,3 +1,4 @@
+@font-face { font-family: Minecraft_f; src: url('../../global_resources/Minecraft-Font-main/Minecraft.otf'); } 
 body {
     background-color: #121212;
     color: rgb(235, 235, 235); 
@@ -52,7 +53,7 @@ body {
     font-size: 2rem;
 }
 .tekstipool p {
-    font-family: 'MinecraftiaRegular';
+    font-family: 'Minecraft_f';
     font-weight: normal;
     font-style: normal;
 }

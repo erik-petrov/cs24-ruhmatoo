@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+@font-face { font-family: Minecraft_f; src: url('../global_resources/Minecraft-Font-main/Minecraft.otf'); } 
 
 .taustapilt {
     height: 95vh !important;
@@ -10,7 +11,7 @@ h2 {
 }
 
 p, div, li{
-  font-family: 'MinecraftiaRegular';
+  font-family: 'Minecraft_f';
   font-weight: normal;
   font-style: normal;
 }
